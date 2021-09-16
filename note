@@ -1,0 +1,34 @@
+Bài 1 : ĐẦU RA CỦA JAVASCRIPT
+  // Javascript có thể Hiển Thị dữ liệu theo nhiều cách khác nhau
+ 1. Viết vào một phần tử HTML ==> innerHTML .
+    - Để sử dụng phần tử này ta sử dụng ==> documrnt.getElementById(id) trong đó id ở trong các phần tử HTML
+ 2.Viết vào đâù ra HTML ==> document.write() .
+    - Nên sử dụng vào mục đích thử nghiệm kết quả.
+ 3.Viết vào một hộp cảnh báo  ==> window.alert() .
+    - Sử dụng làm hộp cảnh báo dữ liệu
+    VD : alert('Hệ Thống sẽ khóa trong 2 phút tới' );
+ 4.Ghi vào bảng điều khiển hoặc làm cho nó ra kết quả  ==> console.log()
+  - Nhằm sử dụng mục đích gỡ lỗi
+
+// Data types
+ - undefined : Trả về một cái gì đó chưa xác định .
+ - null : nghĩa là không có gì .
+ - boolean: Trả về dữ liệu true hay false
+ - string : chuỗi
+ - symbol : là giá trị duy nhất
+ - number : là một con số
+ - object : là một đối tượng lưu trữ rất nhiều các giá trị khác nhau .
+ ///
+
+ // Các từ khóa Javascript
+ - var : Khai báo một biến
+ - let : Khai báo một biến khối
+ - const : Khai báo một hằng số khối ( một đối tượng mới , mảng mới , chức năng mới , RegExp) khi bạn phải xác định giá trị này thay đổi
+ - if : Đánh dấu một khối câu lệnh được thực thi theo một điều kiện
+ - switch : Đánh dấu một khối câu lệnh sẽ được thực thi trong các trường hợp khác nhau
+ - for : Đánh dấu một khố câu lệnh sẽ được thực thi trong một vòng lặp
+ - function : KHai báo một hàm
+ - return :THoát khỏi một chức năng
+ - try : Triển khai xử lý lỗi cho một khối câu lệnh
+
+
