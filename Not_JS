@@ -32,3 +32,11 @@ Bài 1 : ĐẦU RA CỦA JAVASCRIPT
  - try : Triển khai xử lý lỗi cho một khối câu lệnh
 
 
+// Callback
+- là hàm của function được truyền qua đối số
+- khi gọi hàm khác
+ 1. là hàm
+ 2. Được truyền qua đối số
+  3. Phải đươic gọi lại ( trong hàm nhận đối số )
+
+
