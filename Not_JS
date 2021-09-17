@@ -37,6 +37,6 @@ Bài 1 : ĐẦU RA CỦA JAVASCRIPT
 - khi gọi hàm khác
  1. là hàm
  2. Được truyền qua đối số
-  3. Phải đươic gọi lại ( trong hàm nhận đối số )
+ 3. Phải được gọi lại ( trong hàm nhận đối số )
 
 
