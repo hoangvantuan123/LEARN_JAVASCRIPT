@@ -40,3 +40,20 @@ Bài 1 : ĐẦU RA CỦA JAVASCRIPT
  3. Phải được gọi lại ( trong hàm nhận đối số )
 
 
+
+/// HTML DOM ( Document Object Model )
+1 . CÓ 3 thành phần
+   - Element : Các thẻ như head , body , h1 , a
+   - Attribute : Là các href , class , id
+   - Text : Nội dung trong cái thẻ đó
+=> tiêu chuẩn W3C
+---------------------------------------------------------
+
+2. JAVASCRIPT, DOM API
+- Javascript có thể chạy trên trình duyệt và server (NodeJS)
+
+3. Get Element methods
+ - Element : ID , class , tag ,
+-> document.getElementById('demo');
+
+
