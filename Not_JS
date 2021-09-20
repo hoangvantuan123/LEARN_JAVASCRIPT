@@ -53,7 +53,43 @@ Bài 1 : ĐẦU RA CỦA JAVASCRIPT
 - Javascript có thể chạy trên trình duyệt và server (NodeJS)
 
 3. Get Element methods
- - Element : ID , class , tag ,
--> document.getElementById('demo');
+ - Element : ID , class , tag ,CSS Selector
+-- ID
+    document.getElementById('demo');
+ -- class
+   document.getElementsByClassName('.demo');
+-- tag
+   document.getElementsByTagName('p');
+-- CSS Selector
+   var textnode = document.querySelector('.text')
 
+  -Muốn lấy ra nhiều text giống nhau
+   var textnode = document.querySelector('.text:nth-child(1)');
+   var textnode = document.querySelector('.text:nth-child(2)');
+   - muốn lấy tất cả vd NHư các thẻ a và thẻ li
+   var textnode = document.querySelectorAll(" .text:nth-child(1) li")
+   var textnode = document.querySelectorAll(" .text:nth-child(2) li")
 
+Kiến thức cũ nhắc lại (chú ý );
+1.getElementById
+   - Trả về trực tiếp Element // phải có id để dùng
+2.getElementsByClassName
+   - Phương thức getElementsByClassName () trả về một tập hợp tất cả các phần tử trong tài liệu với tên lớp được chỉ định, dưới dạng một đối tượng HTMLCollection .
+   - Các HTMLCollection đối tượng đại diện cho một tập hợp các nút. Các nút có thể được truy cập bằng số chỉ mục. Chỉ số bắt đầu từ 0.
+
+3.getElementsByTagName
+   - Phương thức getElementsByTagName () trả về một tập hợp tất cả các phần tử trong tài liệu với tên thẻ được chỉ định, dưới dạng một đối tượng HTMLCollection .
+   - Các HTMLCollection đối tượng đại diện cho một tập hợp các nút. Các nút có thể được truy cập bằng số chỉ mục. Chỉ số bắt đầu từ 0.
+ --> để dùng trả về một Element : document.getElementsByTagName("P")[0] ta trỏ vào vào [0] một chuỗi length theo thứ tự cần muốn
+4.querySelector
+   - Trả về trực tiếp Element
+5.querySelectorAll
+   - Các Documentphương pháp querySelectorAll() trả về một tĩnh (không sống)
+   - NodeList đại diện cho một danh sách các yếu tố của văn bản phù hợp với nhóm nhất định của bộ chọn.
+6.HTML collection
+   - Đối tượng HTMLCollection là một danh sách các phần tử HTML giống như một mảng.
+   --> console.log(document.forms['chuyền đối tượng (chuỗi) vào']);
+   --> tiện cho thẻ forms
+7.document.write
+   --> là sẽ ghi ra thẳng luôn khi đc thực thi
+   --> document.write('hello')
