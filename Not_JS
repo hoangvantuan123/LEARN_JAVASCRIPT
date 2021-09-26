@@ -45,13 +45,15 @@ Bài 1 : ĐẦU RA CỦA JAVASCRIPT
 1 . CÓ 3 thành phần
    - Element : Các thẻ như head , body , h1 , a
    - Attribute : Là các href , class , id
-   - Text : Nội dung trong cái thẻ đó
+   - Text : Nội dung trong cái thẻ đó (chữ)
 => tiêu chuẩn W3C
 ---------------------------------------------------------
 
 2. JAVASCRIPT, DOM API
 - Javascript có thể chạy trên trình duyệt và server (NodeJS)
 
+----------------------------------------------
+////////////////////Element
 3. Get Element methods
  - Element : ID , class , tag ,CSS Selector
 -- ID
@@ -93,3 +95,28 @@ Kiến thức cũ nhắc lại (chú ý );
 7.document.write
    --> là sẽ ghi ra thẳng luôn khi đc thực thi
    --> document.write('hello')
+
+
+
+----------------------------------
+///////////// Attribute
+DOM Attribute ( THÊM , XÓA BỎ )
+
+
+
+// Nodeproperties
+
+
+
+/// DOM CSS
+//Dom style
+var boxElement = document.querySelector('.box')
+
+Object.assign(boxElement,style,{
+   width :'200px',
+   height :'100px'
+})
+
+//DOM EVENTS
+1. Attribute events
+2. Assign event using the element node

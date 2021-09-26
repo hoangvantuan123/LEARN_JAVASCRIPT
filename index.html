@@ -36,7 +36,9 @@
     <h2>VD5</h2>
     <p id="demo5">Họ Và Tên</p>
     <button type="button" onclick="myFunction()">Try it</button> -->
-
+    <h1 class="even">
+        HOANG VAN TUAN
+    </h1>
 
 
     <script src="./index.js"></script>
@@ -46,7 +48,11 @@
     <!-- <script src="./Callback/every.js"></script> -->
     <script src="./HTML DOM/element.js"></script>
     <script>
-        console.log(document.forms);
+        var h1Element = document.querySelector('h1')
+        h1Element.onclick = function(){
+            console.log(Math.random())
+        }
+
     </script>
 </body>
 
