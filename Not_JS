@@ -120,3 +120,48 @@ Object.assign(boxElement,style,{
 //DOM EVENTS
 1. Attribute events
 2. Assign event using the element node
+
+
+3. preventDefault : Giúp ta loại bỏ đi hành vi mặc định của trình duyệt trên một thẻ
+    cách 1 :- document.getElementById("myAnchor").addEventListener("click", function(event){
+  event.preventDefault()
+});
+   cách 2 :
+      var aElement = document.links;
+      for ( var  i = 0; i < aElement.length ; ++i){
+         aElement[i].onclick = function(e){
+            if( e.target.href.startsWith('https/123333')){
+               e.preventDefault();
+            }
+         }
+      }
+    => cách bỏ đi mặc định của trình duyệt
+
+
+4. stopPropagation : giúp ta loại bỏ đi sự kiện nội bọt
+
+
+
+/// Event listener
+1 . Event lister :
+   -- xử lý nhiều việc khi 1 event xảy ra
+   -- lắng nghe / Hủy bỏ lắng nghe .
+2. JSON
+3. Fetch
+4. DOM location
+5. Local storage
+6. Session storage
+7. Coding convention
+8. Best Pratices
+9. Mistakes
+10 . Performance
+
+///
+--------------------------------------------------------------------
+KIẾN THỨC CỐT LÕI
+
+BÀI 1:  ---- JSON-----
+1. Là một định dạng dữ liệu  (chuỗi)
+2. JAVASCRIPT object notation
+3. JSON : Number, boolean , null , Arry, object,string
+
