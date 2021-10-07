@@ -10,3 +10,28 @@ console.log (object);
 
 
 // 2 : thao tác Stringfy
+/// Bài 2:Promise
+
+/// Bài 3:Promise(pain)
+
+/// BÀi 4 : promise (concept)
+
+var promise = new Promise (
+    function (resole, reject) {
+          // code logic
+          // thành công : resolve ()
+          // thất bại : reject ()
+    }
+);
+promise
+    .then(function(){
+
+    })
+    .catch (function(){
+        // dùng để bắt lỗi thằng reject
+    })
+    .finally(function(){
+
+    })
+
+

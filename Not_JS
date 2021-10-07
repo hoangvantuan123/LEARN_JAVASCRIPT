@@ -164,4 +164,10 @@ BÀI 1:  ---- JSON-----
 1. Là một định dạng dữ liệu  (chuỗi)
 2. JAVASCRIPT object notation
 3. JSON : Number, boolean , null , Arry, object,string
+BÀI 2: -----Promise-----
+1) sync , async
+Khái niệm : Sync : Đồng bộ
+            Async : Bất đồng bộ
 
+Bài 3: ------Promise (pain)
+// code lồng nhau callback
