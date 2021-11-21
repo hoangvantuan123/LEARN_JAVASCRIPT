@@ -31,7 +31,6 @@ promise
         // dùng để bắt lỗi thằng reject
     })
     .finally(function(){
-
     })
 
 
