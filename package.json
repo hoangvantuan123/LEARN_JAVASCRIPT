@@ -1,0 +1,19 @@
+{
+  "name": "learn_javascript",
+  "version": "1.0.0",
+  "description": "Bài 1 : ĐẦU RA CỦA JAVASCRIPT\r   // Javascript có thể Hiển Thị dữ liệu theo nhiều cách khác nhau\r  1. Viết vào một phần tử HTML ==> innerHTML .\r     - Để sử dụng phần tử này ta sử dụng ==> documrnt.getElementById(id) trong đó id ở trong các phần tử HTML\r  2.Viết vào đâù ra HTML ==> document.write() .\r     - Nên sử dụng vào mục đích thử nghiệm kết quả.\r  3.Viết vào một hộp cảnh báo  ==> window.alert() .\r     - Sử dụng làm hộp cảnh báo dữ liệu\r     VD : alert('Hệ Thống sẽ khóa trong 2 phút tới' );\r  4.Ghi vào bảng điều khiển hoặc làm cho nó ra kết quả  ==> console.log()\r   - Nhằm sử dụng mục đích gỡ lỗi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangvantuan123/LEARN_JAVASCRIPT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangvantuan123/LEARN_JAVASCRIPT/issues"
+  },
+  "homepage": "https://github.com/hoangvantuan123/LEARN_JAVASCRIPT#readme"
+}

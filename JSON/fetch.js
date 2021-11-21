@@ -30,7 +30,7 @@ fetch(postAPI)
  */
 
 
-var commit = 'https://jsonplaceholder.typicode.com/comments';
+/* var commit = 'https://jsonplaceholder.typicode.com/comments';
 
 fetch(commit)
     .then (function (response) {
@@ -48,4 +48,25 @@ fetch(commit)
     })
     .catch(function (error) {
         console.log('co loi ');
+    }) */
+
+
+var postAPI ='http://localhost:3000/posts' ;
+fetch(postAPI)
+    .then(function (response) {
+        return response.json() ;
+    })
+    .then(function (posts){
+        var htmls = posts.map(function (post){
+            return `<li>
+                <h2>${post.title}</h2>
+                <h2>${post.author}</h2>
+                <h2>${post.id}</h2>
+            </li>`
+        })
+        var html = htmls.join('')
+        document.getElementById('post-block').innerHTML  = html ;
+    })
+    .catch(function (error) {
+        console.log('err')
     })
