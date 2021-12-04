@@ -1,0 +1,16 @@
+Phần1:  let , Const
+    - var / let , const : scope , Hosting
+    - Const / Var , Let  : Assignment
+// code block if rlse , loop , {} ,........
+var :
+Let :
+Const :
+
+// code thuần : var
+// Babel : Const , let
+- KHi định nghĩa biến và không gán lại biến đó : const
+- KHi cần gán lại giá trị có biến thì dùng let
+
+
+
+Phần2: Template Literals
